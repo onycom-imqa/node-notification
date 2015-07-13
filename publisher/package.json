@@ -1,0 +1,26 @@
+{
+    "name": "pegasuskim",
+    "author": "",
+    "version": "0.0.1",
+    "description": "publisher",
+    "private": true,
+    "main": "app.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "mocha"
+    },
+    "dependencies": {
+        "express": "~3.4",
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "supertest":"0.13.0",
+        "should": "2.1.1"
+    },
+    "engines": {
+        "node": ">=0.10.0",
+        "npm": ">=1.2.10"
+    },
+    "engineStrict": true
+}
+
